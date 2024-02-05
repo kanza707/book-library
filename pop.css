@@ -1,0 +1,152 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url('https://img.freepik.com/premium-photo/white-scifi-product-display-background-scientific-podium-with-white-neon-lights_167650-4699.jpg?size=626&ext=jpg&ga=GA1.1.2116175301.1701129600&semt=ais'); /* Replace 'background.jpg' with the path to your image */
+  background-size: cover; /* Cover the entire background */
+  background-position: center; /* Center the background */
+}
+
+header {
+  background-color: #1b9329;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+nav {
+  margin-top: 10px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+#book-list {
+  max-width: 800px;
+  margin: 20px auto;
+}
+
+.book-item {
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.book-item h2 {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.book-item p {
+  margin: 5px 0;
+}
+
+.book-item img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+form {
+  max-width: 400px;
+  margin: 20px auto;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+form input[type="text"],
+form input[type="number"],
+form input[type="url"],
+form button {
+  width: calc(100% - 16px);
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #0c5507;
+  border-radius: 5px;
+}
+
+form button {
+  background-color: #107b0e;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #16a763;
+}
+/* Example CSS for slider */
+.slider {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.slide {
+  padding: 20px;
+}
+/* CSS for smaller slider images */
+.slider img {
+  max-width: 100px; /* Set the maximum width of the images */
+  height: auto; /* Maintain aspect ratio */
+}
+/* Add color to the delete button */
+.delete-btn {
+  background-color: #1a7520; /* Red color */
+  color: #fff; /* White text color */
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.delete-btn:hover {
+  background-color: #136912; /* Darker red color on hover */
+}
+/* Style for book box */
+.book-box {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+  background-color: #f9f9f9;
+}
+
+/* Style for book details */
+.book-details {
+  text-align: left;
+}
+
+.book-details h3 {
+  margin: 5px 0;
+}
+
+.book-details p {
+  margin: 5px 0;
+}
+
+/* Style for delete button */
+.delete-btn {
+  background-color: #ffae00;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
